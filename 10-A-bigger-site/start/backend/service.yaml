@@ -1,7 +1,7 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: backend-service
+  name: backend
 spec:
   type: NodePort
   selector:
