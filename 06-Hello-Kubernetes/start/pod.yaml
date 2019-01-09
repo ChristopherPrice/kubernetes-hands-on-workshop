@@ -1,8 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  app: hellonode
-  version: v0.1
+  name: hellonode
+  labels:
+    app: hellonode
+    version: v0.1
 spec:
   containers:
   - name: hellonode
